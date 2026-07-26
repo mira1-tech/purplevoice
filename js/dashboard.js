@@ -35,7 +35,7 @@ generateBtn.addEventListener("click", async () => {
 
     try {
 
-        const response = await fetch("http://purplevoice.onrender.com/generate", {
+        const response = await fetch("https://purplevoice.onrender.com/generate", {
 
             method: "POST",
 
