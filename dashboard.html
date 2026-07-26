@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PurpleVoice AI</title>
+
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+
+<body>
+
+<div class="dashboard">
+
+    <h1>💜 PurpleVoice AI</h1>
+
+    <p>What would you like me to say today?</p>
+<div class="voice-selector">
+
+    <label for="voiceSelect">🎙 Choose Voice</label>
+
+    <select id="voiceSelect">
+
+        <option value="EXAVITQu4vr4xnSDxMaL">Bella</option>
+
+        <option value="21m00Tcm4TlvDq8ikWAM">Rachel</option>
+
+        <option value="AZnzlk1XvdvUeBnXmlld">Domi</option>
+
+        <option value="TxGEqnHWrfWFTfGW9XjX">Josh</option>
+
+    </select>
+</div>
+    <textarea
+        id="textInput"
+        placeholder="Type or paste your text here..."
+    ></textarea>
+
+    <div class="controls">
+
+        <span id="counter">0 / 5000</span>
+
+        <select id="voice">
+            <option>Bella (US Female)</option>
+            <option>Adam (US Male)</option>
+            <option>Rachel (UK Female)</option>
+        </select>
+
+    </div>
+
+    <button id="generateBtn">
+        🎙 Generate Voice
+    </button>
+
+    <audio id="audioPlayer" controls></audio>
+
+    <button id="logoutBtn">
+        Logout
+    </button>
+
+</div>
+
+<script src="js/dashboard.js"></script>
+</body>
+</html>
